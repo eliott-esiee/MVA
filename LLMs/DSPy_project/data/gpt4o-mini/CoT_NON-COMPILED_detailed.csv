@@ -1,0 +1,290 @@
+question,example_answer,pred_answer,answer_exact_match,reasoning
+"20 birds migrate on a seasonal basis from one lake to another, searching for food. If they fly from lake Jim to lake Disney in one season, which is 50 miles apart, then the next season they fly from lake Disney to lake London, 60 miles apart, calculate the combined distance all of the birds have traveled in the two seasons.",2200,The combined distance all of the birds have traveled in the two seasons is 2200 miles.,False,"To calculate the combined distance all of the birds have traveled in the two seasons, we first need to determine the distance traveled in each season. 
+
+In the first season, the birds fly from lake Jim to lake Disney, which is 50 miles. In the second season, they fly from lake Disney to lake London, which is 60 miles. 
+
+Now, we can calculate the total distance for one bird:
+- First season: 50 miles
+- Second season: 60 miles
+
+Total distance for one bird = 50 miles + 60 miles = 110 miles.
+
+Since there are 20 birds, we multiply the total distance for one bird by the number of birds:
+Total distance for all birds = 110 miles * 20 birds = 2200 miles."
+"Wendy went to the dentist for a cleaning, two fillings, and a tooth extraction. The dentist charges $70 for a cleaning and $120 for a filling. Wendy’s dentist bill was five times the cost of a filling. What did Wendy pay for the tooth extraction?",290,Wendy paid $290 for the tooth extraction.,False,"Let's denote the cost of a cleaning as \( C = 70 \) dollars, the cost of a filling as \( F = 120 \) dollars, and the cost of a tooth extraction as \( E \). Wendy had one cleaning, two fillings, and one tooth extraction. The total cost of the fillings is \( 2F = 2 \times 120 = 240 \) dollars. Therefore, the total cost of the dental services before considering the extraction is:
+
+\[
+\text{Total cost} = C + 2F + E = 70 + 240 + E
+\]
+
+According to the problem, Wendy's total bill was five times the cost of a filling:
+
+\[
+\text{Total bill} = 5F = 5 \times 120 = 600 \text{ dollars}
+\]
+
+Setting the two expressions for total cost equal gives us:
+
+\[
+70 + 240 + E = 600
+\]
+
+Now, we can simplify this equation:
+
+\[
+310 + E = 600
+\]
+
+To find \( E \), we subtract 310 from both sides:
+
+\[
+E = 600 - 310 = 290
+\]
+
+Thus, Wendy paid 290 dollars for the tooth extraction."
+"Karen is packing her backpack for a long-distance hike. She packs 20 pounds of water, 10 pounds of food, and 20 pounds of gear. During her hike, she drinks 2 pounds of water per hour and eats 1/3rd the weight of food per hour as water per hour. How much weight is she carrying after six hours?",34,34 pounds,False,"Initially, Karen packs a total of 20 pounds of water, 10 pounds of food, and 20 pounds of gear. This gives her a starting weight of:
+
+20 pounds (water) + 10 pounds (food) + 20 pounds (gear) = 50 pounds.
+
+During her hike, she drinks 2 pounds of water per hour. After 6 hours, the total amount of water she has consumed is:
+
+2 pounds/hour * 6 hours = 12 pounds of water.
+
+She also eats 1/3 of the weight of food per hour as water per hour. Since she drinks 2 pounds of water per hour, she eats:
+
+(1/3) * 2 pounds/hour = 2/3 pounds of food per hour.
+
+After 6 hours, the total amount of food she has consumed is:
+
+(2/3 pounds/hour) * 6 hours = 4 pounds of food.
+
+Now, we can calculate the remaining weight of water, food, and gear after 6 hours:
+
+Remaining water = 20 pounds (initial) - 12 pounds (consumed) = 8 pounds.
+Remaining food = 10 pounds (initial) - 4 pounds (consumed) = 6 pounds.
+Remaining gear = 20 pounds (unchanged).
+
+Now, we can find the total weight she is carrying after 6 hours:
+
+Remaining weight = 8 pounds (water) + 6 pounds (food) + 20 pounds (gear) = 34 pounds."
+Rita is reading a five-chapter book with 95 pages. Each chapter has three pages more than the previous one. How many pages does the first chapter have?,13,The first chapter has 13 pages.,False,"Let the number of pages in the first chapter be \( x \). Then, the number of pages in the subsequent chapters can be expressed as follows:
+- First chapter: \( x \)
+- Second chapter: \( x + 3 \)
+- Third chapter: \( x + 6 \)
+- Fourth chapter: \( x + 9 \)
+- Fifth chapter: \( x + 12 \)
+
+The total number of pages in the book is the sum of the pages in all five chapters:
+\[
+x + (x + 3) + (x + 6) + (x + 9) + (x + 12) = 95
+\]
+
+Combining like terms, we have:
+\[
+5x + (3 + 6 + 9 + 12) = 95
+\]
+\[
+5x + 30 = 95
+\]
+
+Now, we can solve for \( x \):
+\[
+5x = 95 - 30
+\]
+\[
+5x = 65
+\]
+\[
+x = \frac{65}{5} = 13
+\]
+
+Thus, the first chapter has 13 pages."
+Benjamin collects 6 dozen eggs a day. Carla collects 3 times the number of eggs that Benjamin collects.  Trisha collects 4 dozen less than Benjamin.  How many dozen eggs do the three collect total?,26,The three collect a total of 26 dozen eggs.,False,"First, we need to determine how many eggs each person collects in dozens. 
+
+Benjamin collects 6 dozen eggs a day. 
+Carla collects 3 times the number of eggs that Benjamin collects, which is:
+3 * 6 = 18 dozen eggs.
+
+Trisha collects 4 dozen less than Benjamin, which is:
+6 - 4 = 2 dozen eggs.
+
+Now, we can find the total number of dozen eggs collected by all three:
+Benjamin's 6 dozen + Carla's 18 dozen + Trisha's 2 dozen = 6 + 18 + 2 = 26 dozen eggs."
+"Roy spends 2 hours on sports activities in school every day. He goes to school 5 days a week. If he missed 2 days within a week, how many hours did he spend on sports in school that week?",6,Roy spent 6 hours on sports in school that week.,False,"Roy spends 2 hours on sports activities each day at school. He attends school 5 days a week, which means he would normally spend 2 hours/day * 5 days = 10 hours on sports activities in a week. However, since he missed 2 days, he only attended school for 5 - 2 = 3 days that week. Therefore, the total hours he spent on sports that week is 2 hours/day * 3 days = 6 hours."
+"Cameron is printing her thesis in the school library and has 400 A4 pieces of paper. If 40% of the papers did not print out up to her desired quality and she separated them as invalid, calculate the total number of valid documents.",240,240,True,"To find the total number of valid documents, we first need to calculate how many papers did not print out to Cameron's desired quality. Since 40% of the 400 A4 pieces of paper are invalid, we can calculate the number of invalid papers as follows:
+
+Invalid papers = 40% of 400 = 0.40 * 400 = 160 papers.
+
+Next, we subtract the number of invalid papers from the total number of papers to find the number of valid documents:
+
+Valid papers = Total papers - Invalid papers = 400 - 160 = 240 papers.
+
+Thus, the total number of valid documents is 240."
+Burt spent $2.00 on a packet of basil seeds and $8.00 on potting soil.  The packet of seeds yielded 20 basil plants.  He sells each basil plant for $5.00 at the local farmer's market.  What is the net profit from his basil plants?,90,$90.00,False,"To calculate the net profit from Burt's basil plants, we first need to determine his total expenses and total revenue. 
+
+1. **Total Expenses**: 
+   - Cost of basil seeds: $2.00
+   - Cost of potting soil: $8.00
+   - Total expenses = $2.00 + $8.00 = $10.00
+
+2. **Total Revenue**: 
+   - Number of basil plants = 20
+   - Selling price per basil plant = $5.00
+   - Total revenue = 20 plants * $5.00/plant = $100.00
+
+3. **Net Profit**: 
+   - Net profit = Total revenue - Total expenses
+   - Net profit = $100.00 - $10.00 = $90.00
+
+Thus, Burt's net profit from selling the basil plants is $90.00."
+Martha's cat catches 3 rats and 7 birds. Cara's cat catches 3 less than five times as many animals as Martha's cat. How many animals does Cara's cat catch?,47,47,True,"First, we need to determine how many animals Martha's cat catches. Martha's cat catches 3 rats and 7 birds, so we add these two numbers together: 
+
+3 (rats) + 7 (birds) = 10 animals.
+
+Next, we need to find out how many animals Cara's cat catches. According to the problem, Cara's cat catches 3 less than five times as many animals as Martha's cat. 
+
+First, we calculate five times the number of animals Martha's cat catches:
+
+5 * 10 = 50.
+
+Now, we subtract 3 from this result to find out how many animals Cara's cat catches:
+
+50 - 3 = 47.
+
+Thus, Cara's cat catches 47 animals."
+"Trey is raising money for a new bike that costs $112. He plans to spend the next two weeks selling bracelets for $1 each. On average, how many bracelets does he need to sell each day?",8,Trey needs to sell 8 bracelets each day.,False,"Trey needs to raise a total of $112 to buy the bike. He plans to sell bracelets for $1 each, which means he needs to sell 112 bracelets in total to reach his goal. He has two weeks to do this, which is equivalent to 14 days. To find out how many bracelets he needs to sell each day, we divide the total number of bracelets by the number of days: 
+
+112 bracelets ÷ 14 days = 8 bracelets per day."
+"Vanessa wants to buy a dress she saw at the mall, which costs $80, and she already has $20 in savings. Her parents give her $30 every week, but she also spends $10 each weekend at the arcades. How many weeks will she have to wait until she can gather enough money to buy the dress?",3,3 weeks,False,"Vanessa needs a total of $80 to buy the dress. She currently has $20 in savings, so she needs an additional $80 - $20 = $60. Her parents give her $30 every week, but she spends $10 at the arcades each weekend. Therefore, her net savings per week is $30 - $10 = $20. To find out how many weeks it will take her to save the additional $60, we divide the amount she needs by her net savings per week: $60 / $20 = 3 weeks."
+"There are 30 students in the general study hall and twice as many students in the biology hall as there are in the general study hall. If the number of students in the math hall is 3/5 times as many as the combined total number of students in the general study hall and the biology hall combined,  calculate the total number of students in all the halls combined.",144,144,True,"First, we determine the number of students in the biology hall. Since there are 30 students in the general study hall and twice as many in the biology hall, we calculate:
+
+Number of students in the biology hall = 2 * 30 = 60 students.
+
+Next, we find the total number of students in both the general study hall and the biology hall combined:
+
+Total in both halls = 30 (general) + 60 (biology) = 90 students.
+
+Now, we calculate the number of students in the math hall, which is 3/5 of the total number of students in the general and biology halls combined:
+
+Number of students in the math hall = (3/5) * 90 = 54 students.
+
+Finally, we find the total number of students in all the halls combined by adding the number of students in each hall:
+
+Total students = 30 (general) + 60 (biology) + 54 (math) = 144 students."
+"Carlos and Diego are racing around the block. Carlos runs around the entire block in 3 minutes. Diego runs around half the block in 2.5 minutes and then is tripped by a dog and can't finish. Assuming he kept up the same speed the entire race, what would've been the average time in seconds for the racers?",240,240 seconds,False,"To find the average time for the racers, we first need to determine the total time each racer would take to complete the race if Diego had not been tripped.
+
+1. **Carlos's time**: Carlos completes the entire block in 3 minutes. 
+   - In seconds, this is: 3 minutes * 60 seconds/minute = 180 seconds.
+
+2. **Diego's speed**: Diego runs half the block in 2.5 minutes. 
+   - In seconds, this is: 2.5 minutes * 60 seconds/minute = 150 seconds.
+   - Therefore, his speed for half the block is: 
+     - Distance = 0.5 (half the block)
+     - Time = 150 seconds
+     - Speed = Distance / Time = 0.5 / 150 = 1/300 blocks per second.
+
+   To find out how long it would take Diego to run the entire block at the same speed:
+   - Time for full block = Distance / Speed = 1 / (1/300) = 300 seconds.
+
+3. **Average time**: Now we can find the average time for both racers:
+   - Total time = Carlos's time + Diego's time = 180 seconds + 300 seconds = 480 seconds.
+   - Average time = Total time / Number of racers = 480 seconds / 2 = 240 seconds."
+"A craft store makes a third of its sales in the fabric section, a quarter of its sales in the jewelry section, and the rest in the stationery section. They made 36 sales today. How many sales were in the stationery section?",15,15,True,"To find the number of sales in the stationery section, we first need to determine the sales in the fabric and jewelry sections. 
+
+1. Sales in the fabric section: 
+   - A third of the total sales (36) is calculated as:
+   \[
+   \text{Fabric sales} = \frac{1}{3} \times 36 = 12
+   \]
+
+2. Sales in the jewelry section:
+   - A quarter of the total sales (36) is calculated as:
+   \[
+   \text{Jewelry sales} = \frac{1}{4} \times 36 = 9
+   \]
+
+3. Now, we can find the sales in the stationery section by subtracting the sales from the fabric and jewelry sections from the total sales:
+   \[
+   \text{Stationery sales} = \text{Total sales} - (\text{Fabric sales} + \text{Jewelry sales}) = 36 - (12 + 9) = 36 - 21 = 15
+   \]
+
+Thus, the number of sales in the stationery section is 15."
+"Mark bought 2 pounds of tomatoes for $5 per pound and 5 pounds of apples, at $6 per pound. How much did he spend in total?",40,Mark spent a total of $40.,False,"To find the total amount Mark spent, we need to calculate the cost of the tomatoes and the cost of the apples separately, and then add them together.
+
+1. **Cost of tomatoes**: 
+   - Mark bought 2 pounds of tomatoes at $5 per pound.
+   - Total cost for tomatoes = 2 pounds * $5/pound = $10.
+
+2. **Cost of apples**: 
+   - Mark bought 5 pounds of apples at $6 per pound.
+   - Total cost for apples = 5 pounds * $6/pound = $30.
+
+Now, we add the total costs of tomatoes and apples:
+Total spent = Cost of tomatoes + Cost of apples = $10 + $30 = $40."
+"There is 80 mg of caffeine in a cup of coffee. Lisa does not want to drink more than 200 mg of caffeine per day. If she drinks three cups of coffee, how many milligrams of coffee did Lisa drink over her goal?",40,Lisa drank 40 mg of caffeine over her goal.,False,"Lisa drinks three cups of coffee, and each cup contains 80 mg of caffeine. Therefore, the total amount of caffeine she consumes from three cups is calculated as follows: 
+
+Total caffeine = 3 cups * 80 mg/cup = 240 mg.
+
+Lisa's goal is to not exceed 200 mg of caffeine per day. To find out how much she has gone over her goal, we subtract her goal from the total caffeine consumed:
+
+Amount over goal = Total caffeine - Goal = 240 mg - 200 mg = 40 mg.
+
+Thus, Lisa drank 40 mg of caffeine over her goal."
+"A married couple opened a savings account. The wife committed to saving $100 every week while the husband committed to saving $225 every month. After 4 months of savings, they decided to invest half of their money in buying stocks. Each share of stocks costs $50. How many shares of stocks can they buy?",25,25 shares,False,"First, we need to calculate the total savings of both the wife and the husband after 4 months. 
+
+The wife saves $100 every week. In 4 months, there are approximately 4 weeks per month, so:
+- Total weeks in 4 months = 4 months * 4 weeks/month = 16 weeks.
+- Total savings by the wife = $100/week * 16 weeks = $1600.
+
+The husband saves $225 every month. In 4 months, he saves:
+- Total savings by the husband = $225/month * 4 months = $900.
+
+Now, we add both amounts to find the total savings:
+- Total savings = $1600 (wife) + $900 (husband) = $2500.
+
+They decided to invest half of their total savings in stocks:
+- Amount to invest in stocks = $2500 / 2 = $1250.
+
+Each share of stocks costs $50, so we can find out how many shares they can buy by dividing the amount they are investing by the cost per share:
+- Number of shares = $1250 / $50 = 25 shares."
+Ms. Hatcher teaches 20 third-graders and a number of fourth-graders that is twice the number of third-graders. Her co-teacher asked her to substitute for her fifth-grade class that has half as many students as the number of third-graders. How many students did Ms. Hatcher teach for the day?,70,Ms. Hatcher taught 70 students for the day.,False,"Ms. Hatcher teaches 20 third-graders. The number of fourth-graders is twice the number of third-graders, so she teaches 2 * 20 = 40 fourth-graders. For the fifth-grade class, the number of students is half the number of third-graders, which is 20 / 2 = 10 fifth-graders. To find the total number of students Ms. Hatcher taught for the day, we add the number of third-graders, fourth-graders, and fifth-graders: 20 + 40 + 10 = 70 students."
+Erika and her 3 siblings are drawing with chalk outside. Another 3 friends join them and ask if they can help with the drawing. Erika loses 2 pieces of chalk as they are counting and the group realizes there isn't enough chalk for everyone. Erika’s mom brings out another 12 pieces of chalk for them to share and there is now enough chalk for everyone to have 3 pieces each. How many pieces of chalk did Erika and her siblings originally have?,11,11,True,"Let's break down the problem step by step. 
+
+1. Erika has 3 siblings, so there are 4 children in total (Erika + 3 siblings).
+2. When 3 friends join them, the total number of children becomes 4 + 3 = 7.
+3. Erika loses 2 pieces of chalk, so we need to account for that loss later.
+4. After losing the chalk, Erika's mom brings out 12 more pieces, which means the total number of pieces of chalk they have now is the original amount minus 2 (for the lost pieces) plus 12 (the new pieces from mom).
+
+Let \( x \) be the original number of pieces of chalk that Erika and her siblings had. After losing 2 pieces, they have \( x - 2 \) pieces. After adding the 12 pieces from mom, they have \( x - 2 + 12 = x + 10 \) pieces of chalk.
+
+Since there are 7 children and each child can have 3 pieces of chalk, the total number of pieces of chalk needed is:
+\[ 7 \times 3 = 21 \]
+
+Now we can set up the equation:
+\[ x + 10 = 21 \]
+
+To find \( x \), we solve the equation:
+\[ x = 21 - 10 \]
+\[ x = 11 \]
+
+Thus, Erika and her siblings originally had 11 pieces of chalk."
+"Bob, Tom, Sally, and Jerry had dinner at their favorite pizzeria. They decide to share 2 pizzas. Bob ate half of a pizza on his own. Tom ate one-third of a pizza. Sally wasn't very hungry and only ate one-sixth of a pizza, and Jerry ate a quarter of a pizza. If each pizza is cut into 12 slices, how many slices were left over?",9,9 slices,False,"First, we need to determine how much pizza each person ate in terms of slices. Each pizza has 12 slices, so:
+
+- Bob ate half a pizza: \( \frac{1}{2} \times 12 = 6 \) slices.
+- Tom ate one-third of a pizza: \( \frac{1}{3} \times 12 = 4 \) slices.
+- Sally ate one-sixth of a pizza: \( \frac{1}{6} \times 12 = 2 \) slices.
+- Jerry ate a quarter of a pizza: \( \frac{1}{4} \times 12 = 3 \) slices.
+
+Now, we can add up the total number of slices eaten by all four:
+
+Total slices eaten = Bob's slices + Tom's slices + Sally's slices + Jerry's slices
+= \( 6 + 4 + 2 + 3 = 15 \) slices.
+
+Since they shared 2 pizzas, the total number of slices available is:
+
+Total slices available = \( 2 \times 12 = 24 \) slices.
+
+To find the number of slices left over, we subtract the total slices eaten from the total slices available:
+
+Slices left over = Total slices available - Total slices eaten
+= \( 24 - 15 = 9 \) slices."

@@ -1,0 +1,7 @@
+Model,Compiled,Score
+Vanilla,False,0.0
+Vanilla,True,40.0
+CoT,False,25.0
+CoT,True,100.0
+Reflection,False,50.0
+Reflection,True,100.0

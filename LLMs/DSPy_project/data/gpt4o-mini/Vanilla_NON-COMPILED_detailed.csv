@@ -1,0 +1,265 @@
+question,example_answer,pred_answer,answer_exact_match
+"20 birds migrate on a seasonal basis from one lake to another, searching for food. If they fly from lake Jim to lake Disney in one season, which is 50 miles apart, then the next season they fly from lake Disney to lake London, 60 miles apart, calculate the combined distance all of the birds have traveled in the two seasons.",2200,"The total distance traveled by the birds in the two seasons can be calculated as follows:
+
+1. Distance from lake Jim to lake Disney: 50 miles
+2. Distance from lake Disney to lake London: 60 miles
+
+Combined distance for one bird = 50 miles + 60 miles = 110 miles.
+
+Since there are 20 birds, the total distance traveled by all birds = 20 birds * 110 miles = 2200 miles.
+
+Therefore, the combined distance all of the birds have traveled in the two seasons is 2200 miles.",False
+"Wendy went to the dentist for a cleaning, two fillings, and a tooth extraction. The dentist charges $70 for a cleaning and $120 for a filling. Wendy’s dentist bill was five times the cost of a filling. What did Wendy pay for the tooth extraction?",290,"Wendy's dentist bill for the cleaning and two fillings can be calculated as follows:
+
+- Cost of cleaning: $70
+- Cost of one filling: $120
+- Cost of two fillings: 2 * $120 = $240
+
+Total cost for cleaning and fillings: $70 + $240 = $310
+
+According to the problem, Wendy's total bill was five times the cost of a filling. The cost of a filling is $120, so:
+
+Total bill = 5 * $120 = $600
+
+Now, we can find the cost of the tooth extraction by subtracting the cost of the cleaning and fillings from the total bill:
+
+Cost of tooth extraction = Total bill - Cost of cleaning and fillings
+Cost of tooth extraction = $600 - $310 = $290
+
+Therefore, Wendy paid $290 for the tooth extraction.",False
+"Karen is packing her backpack for a long-distance hike. She packs 20 pounds of water, 10 pounds of food, and 20 pounds of gear. During her hike, she drinks 2 pounds of water per hour and eats 1/3rd the weight of food per hour as water per hour. How much weight is she carrying after six hours?",34,"After six hours, Karen drinks 2 pounds of water per hour, totaling 12 pounds of water consumed (2 pounds/hour * 6 hours). She also eats 1/3 of the weight of water consumed per hour, which is 2/3 pounds of food per hour. Over six hours, she consumes 4 pounds of food (2/3 pounds/hour * 6 hours). 
+
+Initially, she packed:
+- Water: 20 pounds
+- Food: 10 pounds
+- Gear: 20 pounds
+
+After six hours, the remaining weight is:
+- Water: 20 - 12 = 8 pounds
+- Food: 10 - 4 = 6 pounds
+- Gear: 20 pounds (unchanged)
+
+Total weight after six hours = 8 + 6 + 20 = 34 pounds.
+
+Therefore, Karen is carrying 34 pounds after six hours.",False
+Rita is reading a five-chapter book with 95 pages. Each chapter has three pages more than the previous one. How many pages does the first chapter have?,13,"Let the number of pages in the first chapter be \( x \). Then the number of pages in the subsequent chapters can be expressed as follows:
+
+- First chapter: \( x \)
+- Second chapter: \( x + 3 \)
+- Third chapter: \( x + 6 \)
+- Fourth chapter: \( x + 9 \)
+- Fifth chapter: \( x + 12 \)
+
+The total number of pages in the book is the sum of the pages in all chapters:
+
+\[
+x + (x + 3) + (x + 6) + (x + 9) + (x + 12) = 95
+\]
+
+Combining like terms, we get:
+
+\[
+5x + (3 + 6 + 9 + 12) = 95
+\]
+
+Calculating the sum of the constants:
+
+\[
+3 + 6 + 9 + 12 = 30
+\]
+
+So the equation simplifies to:
+
+\[
+5x + 30 = 95
+\]
+
+Subtracting 30 from both sides:
+
+\[
+5x = 65
+\]
+
+Dividing by 5:
+
+\[
+x = 13
+\]
+
+Thus, the first chapter has 13 pages.",False
+Benjamin collects 6 dozen eggs a day. Carla collects 3 times the number of eggs that Benjamin collects.  Trisha collects 4 dozen less than Benjamin.  How many dozen eggs do the three collect total?,26,"To find the total number of dozen eggs collected by Benjamin, Carla, and Trisha, we first calculate the number of eggs each person collects.
+
+1. Benjamin collects 6 dozen eggs a day.
+2. Carla collects 3 times the number of eggs that Benjamin collects:
+   - Carla's collection = 3 * 6 dozen = 18 dozen eggs.
+3. Trisha collects 4 dozen less than Benjamin:
+   - Trisha's collection = 6 dozen - 4 dozen = 2 dozen eggs.
+
+Now, we add the number of dozen eggs collected by each person:
+- Total = Benjamin's collection + Carla's collection + Trisha's collection
+- Total = 6 dozen + 18 dozen + 2 dozen = 26 dozen eggs.
+
+Therefore, the three collect a total of 26 dozen eggs.",False
+"Roy spends 2 hours on sports activities in school every day. He goes to school 5 days a week. If he missed 2 days within a week, how many hours did he spend on sports in school that week?",6,"Roy spends 2 hours on sports activities each day. If he goes to school 5 days a week and misses 2 days, he attends school for 3 days that week. Therefore, the total hours he spent on sports that week is 2 hours/day * 3 days = 6 hours.",False
+"Cameron is printing her thesis in the school library and has 400 A4 pieces of paper. If 40% of the papers did not print out up to her desired quality and she separated them as invalid, calculate the total number of valid documents.",240,"To find the total number of valid documents, we first need to calculate how many papers did not print out to Cameron's desired quality. 
+
+40% of 400 papers is calculated as follows:
+0.40 * 400 = 160 papers.
+
+Now, we subtract the invalid papers from the total number of papers:
+400 - 160 = 240 valid papers.
+
+Therefore, the total number of valid documents is 240.",False
+Burt spent $2.00 on a packet of basil seeds and $8.00 on potting soil.  The packet of seeds yielded 20 basil plants.  He sells each basil plant for $5.00 at the local farmer's market.  What is the net profit from his basil plants?,90,"To calculate Burt's net profit from his basil plants, we first need to determine his total expenses and total revenue.
+
+1. **Total Expenses**:
+   - Cost of basil seeds: $2.00
+   - Cost of potting soil: $8.00
+   - Total Expenses = $2.00 + $8.00 = $10.00
+
+2. **Total Revenue**:
+   - Number of basil plants: 20
+   - Selling price per basil plant: $5.00
+   - Total Revenue = 20 plants * $5.00/plant = $100.00
+
+3. **Net Profit**:
+   - Net Profit = Total Revenue - Total Expenses
+   - Net Profit = $100.00 - $10.00 = $90.00
+
+Therefore, Burt's net profit from his basil plants is $90.00.",False
+Martha's cat catches 3 rats and 7 birds. Cara's cat catches 3 less than five times as many animals as Martha's cat. How many animals does Cara's cat catch?,47,"Cara's cat catches 3 less than five times the number of animals caught by Martha's cat. Martha's cat catches 3 rats and 7 birds, which totals to 3 + 7 = 10 animals. 
+
+Five times the number of animals caught by Martha's cat is 5 * 10 = 50. 
+
+Now, subtracting 3 from this gives us 50 - 3 = 47. 
+
+Therefore, Cara's cat catches 47 animals.",False
+"Trey is raising money for a new bike that costs $112. He plans to spend the next two weeks selling bracelets for $1 each. On average, how many bracelets does he need to sell each day?",8,"Trey needs to raise $112 and he plans to sell bracelets for $1 each. Therefore, he needs to sell 112 bracelets in total. Since he has 14 days (2 weeks) to sell them, he needs to sell an average of 112 bracelets / 14 days = 8 bracelets per day.",False
+"Vanessa wants to buy a dress she saw at the mall, which costs $80, and she already has $20 in savings. Her parents give her $30 every week, but she also spends $10 each weekend at the arcades. How many weeks will she have to wait until she can gather enough money to buy the dress?",3,"Vanessa needs a total of $80 for the dress. She currently has $20 in savings, so she needs an additional $80 - $20 = $60. 
+
+Her parents give her $30 every week, but she spends $10 at the arcades each weekend. Therefore, her net savings per week is $30 - $10 = $20.
+
+To find out how many weeks it will take her to save the additional $60, we divide the amount she needs by her net savings per week: 
+
+$60 ÷ $20/week = 3 weeks.
+
+So, Vanessa will have to wait 3 weeks to gather enough money to buy the dress.",False
+"There are 30 students in the general study hall and twice as many students in the biology hall as there are in the general study hall. If the number of students in the math hall is 3/5 times as many as the combined total number of students in the general study hall and the biology hall combined,  calculate the total number of students in all the halls combined.",144,"To find the total number of students in all the halls combined, we can break it down step by step.
+
+1. **Students in the general study hall**: 30 students.
+2. **Students in the biology hall**: Since there are twice as many students in the biology hall as in the general study hall, we have:
+   \[
+   \text{Students in biology hall} = 2 \times 30 = 60 \text{ students}
+   \]
+3. **Combined total of students in the general and biology halls**:
+   \[
+   \text{Total in general and biology halls} = 30 + 60 = 90 \text{ students}
+   \]
+4. **Students in the math hall**: The number of students in the math hall is \( \frac{3}{5} \) of the combined total of the general and biology halls:
+   \[
+   \text{Students in math hall} = \frac{3}{5} \times 90 = 54 \text{ students}
+   \]
+5. **Total number of students in all halls combined**:
+   \[
+   \text{Total} = 30 + 60 + 54 = 144 \text{ students}
+   \]
+
+Thus, the total number of students in all the halls combined is 144.",False
+"Carlos and Diego are racing around the block. Carlos runs around the entire block in 3 minutes. Diego runs around half the block in 2.5 minutes and then is tripped by a dog and can't finish. Assuming he kept up the same speed the entire race, what would've been the average time in seconds for the racers?",240,"To find the average time for the racers, we first need to determine their speeds and then calculate the time it would take for each to complete the full race.
+
+1. **Carlos's Speed**:
+   - Carlos runs around the entire block in 3 minutes.
+   - Speed = Distance / Time = 1 block / 3 minutes = 1/3 blocks per minute.
+
+2. **Diego's Speed**:
+   - Diego runs half the block in 2.5 minutes.
+   - Speed = Distance / Time = 0.5 blocks / 2.5 minutes = 0.2 blocks per minute.
+   - If Diego had continued at this speed for the full block, it would take him:
+     - Time = Distance / Speed = 1 block / 0.2 blocks per minute = 5 minutes.
+
+Now we have the total times for both racers:
+- Carlos: 3 minutes
+- Diego: 5 minutes
+
+3. **Average Time**:
+   - Average time = (Time of Carlos + Time of Diego) / 2
+   - Average time = (3 minutes + 5 minutes) / 2 = 8 minutes / 2 = 4 minutes.
+
+4. **Convert to Seconds**:
+   - 4 minutes = 4 * 60 seconds = 240 seconds.
+
+Thus, the average time for the racers would have been 240 seconds.",False
+"A craft store makes a third of its sales in the fabric section, a quarter of its sales in the jewelry section, and the rest in the stationery section. They made 36 sales today. How many sales were in the stationery section?",15,"To find the number of sales in the stationery section, we first need to calculate the sales in the fabric and jewelry sections.
+
+1. Sales in the fabric section: 
+   \(\frac{1}{3} \times 36 = 12\)
+
+2. Sales in the jewelry section: 
+   \(\frac{1}{4} \times 36 = 9\)
+
+Now, we can find the total sales in the fabric and jewelry sections:
+\(12 + 9 = 21\)
+
+Finally, we subtract this from the total sales to find the sales in the stationery section:
+\(36 - 21 = 15\)
+
+Therefore, the number of sales in the stationery section is 15.",False
+"Mark bought 2 pounds of tomatoes for $5 per pound and 5 pounds of apples, at $6 per pound. How much did he spend in total?",40,"Mark spent a total of $10 on tomatoes (2 pounds x $5 per pound) and $30 on apples (5 pounds x $6 per pound). Therefore, his total expenditure is $10 + $30 = $40.",False
+"There is 80 mg of caffeine in a cup of coffee. Lisa does not want to drink more than 200 mg of caffeine per day. If she drinks three cups of coffee, how many milligrams of coffee did Lisa drink over her goal?",40,"Lisa drinks 3 cups of coffee, which is 3 cups * 80 mg/cup = 240 mg of caffeine. Since she does not want to exceed 200 mg, she goes over her goal by 240 mg - 200 mg = 40 mg.",False
+"A married couple opened a savings account. The wife committed to saving $100 every week while the husband committed to saving $225 every month. After 4 months of savings, they decided to invest half of their money in buying stocks. Each share of stocks costs $50. How many shares of stocks can they buy?",25,"After 4 months, the wife saves $100 per week. In 4 months, there are approximately 16 weeks (4 weeks per month). Therefore, the wife saves:
+$100 * 16 = $1,600.
+
+The husband saves $225 per month. In 4 months, he saves:
+$225 * 4 = $900.
+
+Together, they have saved:
+$1,600 + $900 = $2,500.
+
+They decide to invest half of their savings in stocks:
+$2,500 / 2 = $1,250.
+
+Each share of stocks costs $50, so the number of shares they can buy is:
+$1,250 / $50 = 25 shares.
+
+Thus, they can buy 25 shares of stocks.",False
+Ms. Hatcher teaches 20 third-graders and a number of fourth-graders that is twice the number of third-graders. Her co-teacher asked her to substitute for her fifth-grade class that has half as many students as the number of third-graders. How many students did Ms. Hatcher teach for the day?,70,"Ms. Hatcher teaches 20 third-graders. The number of fourth-graders is twice that, so she teaches 2 * 20 = 40 fourth-graders. The fifth-grade class has half as many students as the third-graders, which is 20 / 2 = 10 students. Therefore, the total number of students Ms. Hatcher taught for the day is 20 (third-graders) + 40 (fourth-graders) + 10 (fifth-graders) = 70 students.",False
+Erika and her 3 siblings are drawing with chalk outside. Another 3 friends join them and ask if they can help with the drawing. Erika loses 2 pieces of chalk as they are counting and the group realizes there isn't enough chalk for everyone. Erika’s mom brings out another 12 pieces of chalk for them to share and there is now enough chalk for everyone to have 3 pieces each. How many pieces of chalk did Erika and her siblings originally have?,11,"Erika and her 3 siblings have 4 members in total. With 3 friends joining them, the total number of children becomes 4 + 3 = 7. Each child needs 3 pieces of chalk, so they need a total of 7 * 3 = 21 pieces of chalk. Since Erika lost 2 pieces of chalk, the total number of pieces they originally had before her mom brought out the additional 12 pieces is 21 - 12 = 9 pieces. Adding back the 2 pieces Erika lost, they originally had 9 + 2 = 11 pieces of chalk.
+
+Therefore, Erika and her siblings originally had 11 pieces of chalk.",False
+"Bob, Tom, Sally, and Jerry had dinner at their favorite pizzeria. They decide to share 2 pizzas. Bob ate half of a pizza on his own. Tom ate one-third of a pizza. Sally wasn't very hungry and only ate one-sixth of a pizza, and Jerry ate a quarter of a pizza. If each pizza is cut into 12 slices, how many slices were left over?",9,"To find out how many slices were left over, we first need to calculate how much pizza was consumed by each person and then determine how much pizza was left.
+
+1. **Total amount of pizza consumed:**
+   - Bob ate half of a pizza: \( \frac{1}{2} \)
+   - Tom ate one-third of a pizza: \( \frac{1}{3} \)
+   - Sally ate one-sixth of a pizza: \( \frac{1}{6} \)
+   - Jerry ate a quarter of a pizza: \( \frac{1}{4} \)
+
+   To add these fractions, we need a common denominator. The least common multiple of 2, 3, 6, and 4 is 12.
+
+   - Bob: \( \frac{1}{2} = \frac{6}{12} \)
+   - Tom: \( \frac{1}{3} = \frac{4}{12} \)
+   - Sally: \( \frac{1}{6} = \frac{2}{12} \)
+   - Jerry: \( \frac{1}{4} = \frac{3}{12} \)
+
+   Now, we can add them together:
+   \[
+   \frac{6}{12} + \frac{4}{12} + \frac{2}{12} + \frac{3}{12} = \frac{15}{12}
+   \]
+
+   This means they consumed \( \frac{15}{12} \) pizzas in total.
+
+2. **Total amount of pizza available:**
+   They shared 2 pizzas, which is equivalent to \( \frac{24}{12} \) slices.
+
+3. **Calculating leftover pizza:**
+   The amount of pizza left over is:
+   \[
+   \frac{24}{12} - \frac{15}{12} = \frac{9}{12} = \frac{3}{4}
+   \]
+
+   Since each pizza is cut into 12 slices, \( \frac{3}{4} \) of a pizza is:
+   \[
+   \frac{3}{4} \times 12 = 9 \text{ slices}
+   \]
+
+Thus, the number of slices left over is 9.",False

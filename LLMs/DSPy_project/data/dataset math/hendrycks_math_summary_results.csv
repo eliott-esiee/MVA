@@ -1,0 +1,7 @@
+Dataset,Model,Compiled,Score
+hendrycks_math,Vanilla,False,40.0
+hendrycks_math,Vanilla,True,85.0
+hendrycks_math,CoT,False,0.0
+hendrycks_math,CoT,True,85.0
+hendrycks_math,Reflection,False,0.0
+hendrycks_math,Reflection,True,80.0
